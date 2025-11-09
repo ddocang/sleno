@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLENO CO., LTD. - Camera Module Solutions</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header_wrap" class="main">
+      <div id="header">
+        <div class="header-inner">
+          <h1>
+            <div id="logo">
+              <a href="/"></a>
+            </div>
+          </h1>
+          <nav id="top_nav">
+            <ul class="gnb">
+              <li class="lm">
+                <a href="#company" data-translate="nav.company">COMPANY</a>
+                <ul class="snb">
+                  <li class="sm">
+                    <a href="overview.html" data-translate="nav.overview"
+                      >Overview</a
+                    >
+                  </li>
+                  <li class="sm">
+                    <a
+                      href="certification.html"
+                      data-translate="nav.certification"
+                      >Certification</a
+                    >
+                  </li>
+                  <li class="sm">
+                    <a href="location.html" data-translate="nav.location"
+                      >Location</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="lm">
+                <a href="#business" data-translate="nav.business"
+                  >BUSINESS AREA</a
+                >
+                <ul class="snb">
+                  <li class="sm">
+                    <a href="automotive.html" data-translate="nav.compressor"
+                      >Compressor</a
+                    >
+                  </li>
+                  <li class="sm">
+                    <a href="biometric.html" data-translate="nav.edge_server"
+                      >Edge Server</a
+                    >
+                  </li>
+                  <li class="sm">
+                    <a href="iot.html" data-translate="nav.rtk">RTK</a>
+                  </li>
+                  <li class="sm">
+                    <a href="machine.html" data-translate="nav.monitoring"
+                      >Monitoring System</a
+                    >
+                  </li>
+                  <li class="sm">
+                    <a href="security.html" data-translate="nav.hydrogen"
+                      >Hydrogen Storage Alloy</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="lm">
+                <a href="#rnd" data-translate="nav.rnd">R&D</a>
+                <ul class="snb">
+                  <li class="sm">
+                    <a href="rnd-center.html" data-translate="nav.rnd_center"
+                      >R&D Center</a
+                    >
+                  </li>
+                  <li class="sm">
+                    <a href="rnd-field.html" data-translate="nav.rnd_field"
+                      >R&D Field</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="lm">
+                <a href="#support" data-translate="nav.support">SUPPORT</a>
+                <ul class="snb">
+                  <li class="sm">
+                    <a href="notice.html" data-translate="nav.notice">Notice</a>
+                  </li>
+                  <li class="sm">
+                    <a href="inquiry.html" data-translate="nav.inquiry"
+                      >Inquiry</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="lm language_toggle_wrap">
+                <div class="language_toggle">
+                  <button class="lang_current" type="button">
+                    <span class="lang_text">한국어</span>
+                    <i class="fa fa-chevron-down"></i>
+                  </button>
+                  <ul class="lang_dropdown">
+                    <li>
+                      <a href="#" class="lang_option active" data-lang="ko"
+                        >한국어</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="lang_option" data-lang="en">English</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <div id="hd_right">
+              <div class="menu_slider_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="snb_bg"></div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="hidden_nav">
+        <div class="menu_slider_btn2">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="h_gnb">
+          <li class="h_lm">
+            <a href="#company" data-translate="nav.company">COMPANY</a>
+            <ul class="h_snb">
+              <li>
+                <a href="overview.html" data-translate="nav.overview"
+                  >Overview</a
+                >
+              </li>
+              <li>
+                <a href="certification.html" data-translate="nav.certification"
+                  >Certification</a
+                >
+              </li>
+              <li>
+                <a href="location.html" data-translate="nav.location"
+                  >Location</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="h_lm">
+            <a href="#business" data-translate="nav.business">BUSINESS AREA</a>
+            <ul class="h_snb">
+              <li>
+                <a href="automotive.html" data-translate="nav.compressor"
+                  >Compressor</a
+                >
+              </li>
+              <li>
+                <a href="biometric.html" data-translate="nav.edge_server"
+                  >Edge Server</a
+                >
+              </li>
+              <li><a href="iot.html" data-translate="nav.rtk">RTK</a></li>
+              <li>
+                <a href="machine.html" data-translate="nav.monitoring"
+                  >Monitoring System</a
+                >
+              </li>
+              <li>
+                <a href="security.html" data-translate="nav.hydrogen"
+                  >Hydrogen Storage Alloy</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="h_lm">
+            <a href="#rnd" data-translate="nav.rnd">R&D</a>
+            <ul class="h_snb">
+              <li>
+                <a href="rnd-center.html" data-translate="nav.rnd_center"
+                  >R&D Center</a
+                >
+              </li>
+              <li>
+                <a href="rnd-field.html" data-translate="nav.rnd_field"
+                  >R&D Field</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="h_lm">
+            <a href="#support" data-translate="nav.support">SUPPORT</a>
+            <ul class="h_snb">
+              <li>
+                <a href="notice.html" data-translate="nav.notice">Notice</a>
+              </li>
+              <li>
+                <a href="inquiry.html" data-translate="nav.inquiry">Inquiry</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="hidden_nav_box"></div>
+    </div>
+
+    <!-- Page Navigation Dots -->
+    <div id="main_location">
+      <ul id="fullpageMenu">
+        <li data-menuanchor="slide1">
+          <a href="#slide1"><i class="rec"></i></a>
+        </li>
+        <li data-menuanchor="slide2">
+          <a href="#slide2"><i class="rec"></i></a>
+        </li>
+        <li data-menuanchor="slide3">
+          <a href="#slide3"><i class="rec"></i></a>
+        </li>
+        <li data-menuanchor="slide4">
+          <a href="#slide4"><i class="rec"></i></a>
+        </li>
+        <li data-menuanchor="slide5">
+          <a href="#slide5"><i class="rec"></i></a>
+        </li>
+        <li data-menuanchor="slide6">
+          <a href="#slide6"><i class="rec"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div id="fullpage">
+      <!-- Section 1: Main Visual -->
+      <div class="section" data-anchor="slide1">
+        <div id="main_vis">
+          <div id="main_vis_slider">
+            <div class="main_slide slide1"></div>
+            <div class="main_slide slide2"></div>
+            <div class="main_slide slide3"></div>
+            <div class="main_slide slide4"></div>
+          </div>
+
+          <div class="progress_wr">
+            <div class="progress_bar"></div>
+          </div>
+
+          <div class="main_typo_wrap">
+            <div class="main_typo main_typo_1 active">
+              <h2 data-aos="fade-right" data-translate="main.typo1.title">
+                Driving Industrial Power,<br />
+                Through Precision,<br />
+                Compression Technology
+              </h2>
+              <p
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-translate="main.typo1.desc"
+              >
+                From petrochemical and power generation to hydrogen plants<br />
+                customized compression solutions for every industrial site.
+              </p>
+            </div>
+
+            <div class="main_typo main_typo_2">
+              <h2 data-aos="fade-right" data-translate="main.typo2.title">
+                Massive IoT Network for Smart Cities
+              </h2>
+              <p
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-translate="main.typo2.desc"
+              >
+                IoT devices collect real-time data throughout the city,<br />
+                connecting urban areas safely and efficiently<br />
+                through Massive IoT standard-based wireless networks.
+              </p>
+            </div>
+
+            <div class="main_typo main_typo_3">
+              <h2 data-aos="fade-right" data-translate="main.typo3.title">
+                Monitoring industrial safety and efficiency<br />
+                with real-time data.
+              </h2>
+              <p
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-translate="main.typo3.desc"
+              >
+                We collect and analyze data from various sensors installed in
+                facilities<br />
+                to detect anomalies in real-time,<br />
+                maximizing safety and operational efficiency in industrial
+                sites.
+              </p>
+            </div>
+
+            <div class="main_typo main_typo_4">
+              <h2 data-aos="fade-right" data-translate="main.typo4.title">
+                센티미터 단위의 정밀함, RTK로 완성하다.
+              </h2>
+              <p
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-translate="main.typo4.desc"
+              >
+                RTK 기술은 위성 신호를 실시간 보정하여 센티미터급 위치 정밀도를
+                구현하고,<br />
+                자율주행과 드론, 농업 자동화 등 정밀 제어 산업의 기반이 됩니다.
+              </p>
+            </div>
+
+            <div class="controller">
+              <div class="flex">
+                <div class="cir_progress_wrap">
+                  <svg
+                    class="cir_progress"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 120 120"
+                  >
+                    <circle
+                      cx="60"
+                      cy="60"
+                      r="54"
+                      fill="none"
+                      stroke="rgba(255,255,255,.3)"
+                      stroke-width="8"
+                    ></circle>
+                    <circle
+                      class="cir_progress_value"
+                      cx="60"
+                      cy="60"
+                      r="54"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="8"
+                    ></circle>
+                  </svg>
+                  <div id="play_btn">
+                    <a class="play"><i class="fa fa-play"></i></a>
+                    <a class="pause"><i class="fa fa-pause"></i></a>
+                  </div>
+                </div>
+
+                <div class="prev"><i class="fa fa-chevron-left"></i></div>
+                <div class="num_wr">
+                  <span class="pagingInfo">1</span>
+                  <span class="slash">/</span>
+                  <span>4</span>
+                </div>
+                <div class="next"><i class="fa fa-chevron-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 2: Overview -->
+      <div class="section" data-anchor="slide2">
+        <div id="c1_wrap">
+          <div class="img" data-aos="fade-in"></div>
+          <div class="txt_wrap">
+            <div data-aos="fade-left">
+              <h2 class="c_title" data-translate="overview.title">Overview</h2>
+              <p data-translate="overview.desc">
+                ㈜슬레노는 산업용 압축기, RTK 정밀 위치 시스템, IoT 모니터링
+                솔루션,<br />
+                그리고 수소저장합금 기술을 기반으로 한 산업·에너지 융합
+                기술기업입니다.<br />
+                정밀한 기술과 혁신적인 데이터 솔루션으로 산업의 안전, 효율,<br />
+                그리고 지속가능한 미래를 만들어갑니다.
+              </p>
+              <a class="c_btn" href="overview.html">
+                <span data-translate="overview.btn">MORE VIEW</span>
+                <div class="cir"><i></i></div>
+              </a>
+
+              <ul class="list">
+                <li>
+                  <i class="fa fa-building"></i>
+                  <div>
+                    <span data-translate="overview.company">COMPANY</span>
+                    <h4 data-translate="sub.overview.company.name">
+                      SLENO CO., LTD.
+                    </h4>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa fa-user"></i>
+                  <div>
+                    <span data-translate="overview.ceo">CEO</span>
+                    <h4 data-translate="sub.overview.ceo.name">Scott Shin</h4>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa fa-calendar"></i>
+                  <div>
+                    <span data-translate="overview.established"
+                      >Established year</span
+                    >
+                    <h4>2019</h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Business Area -->
+      <div class="section" data-anchor="slide3">
+        <div id="c2_wrap">
+          <ul class="list" data-aos="fade-in">
+            <li>
+              <a href="automotive.html">
+                <div class="img-wrap">
+                  <div class="img bg1"></div>
+                  <div class="img-ov bg1-ov"></div>
+                </div>
+                <div class="txt">
+                  <h4>01.</h4>
+                  <h3 data-translate="business.compressor">Compressor<br /></h3>
+                  <span data-translate="business.more_view"
+                    >MORE VIEW<i></i
+                  ></span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="biometric.html">
+                <div class="img-wrap">
+                  <div class="img bg2"></div>
+                  <div class="img-ov bg2-ov"></div>
+                </div>
+                <div class="txt">
+                  <h4>02.</h4>
+                  <h3 data-translate="business.edge_server">
+                    Edge Server<br />
+                  </h3>
+                  <span data-translate="business.more_view"
+                    >MORE VIEW<i></i
+                  ></span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="iot.html">
+                <div class="img-wrap">
+                  <div class="img bg3"></div>
+                  <div class="img-ov bg3-ov"></div>
+                </div>
+                <div class="txt">
+                  <h4>03.</h4>
+                  <h3 data-translate="business.rtk">RTK<br /></h3>
+                  <span data-translate="business.more_view"
+                    >MORE VIEW<i></i
+                  ></span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="machine.html">
+                <div class="img-wrap">
+                  <div class="img bg4"></div>
+                  <div class="img-ov bg4-ov"></div>
+                </div>
+                <div class="txt">
+                  <h4>04.</h4>
+                  <h3 data-translate="business.monitoring">
+                    Monitoring System<br />
+                  </h3>
+                  <span data-translate="business.more_view"
+                    >MORE VIEW<i></i
+                  ></span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="security.html">
+                <div class="img-wrap">
+                  <div class="img bg5"></div>
+                  <div class="img-ov bg5-ov"></div>
+                </div>
+                <div class="txt">
+                  <h4>05.</h4>
+                  <h3 data-translate="business.hydrogen">
+                    Hydrogen Storage Alloy<br />
+                  </h3>
+                  <span data-translate="business.more_view"
+                    >MORE VIEW<i></i
+                  ></span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Section 4: R&D -->
+      <div class="section" data-anchor="slide4">
+        <div id="c3_wrap">
+          <article class="c_inner">
+            <h2 class="c_title" data-aos="fade-up" data-translate="rnd.title">
+              R&D
+            </h2>
+            <p data-aos="fade-up" data-translate="rnd.desc">
+              Through innovative research and development based on industrial
+              compressors,<br />
+              RTK precision positioning systems, IoT monitoring solutions,<br />
+              and hydrogen storage alloy technology, we create a safe,
+              efficient,<br />
+              and sustainable future for industry.
+            </p>
+            <div data-aos="fade-up">
+              <a class="c_btn" href="rnd-center.html">
+                <span data-translate="rnd.btn">MORE VIEW</span>
+                <div class="cir"><i></i></div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Section 5: Notice -->
+      <div class="section" data-anchor="slide5">
+        <div id="c4_wrap">
+          <article class="c_inner">
+            <div class="top" data-aos="fade-up">
+              <h2 class="c_title" data-translate="notice.title">Notice</h2>
+              <a class="c_btn pc" href="notice.html">
+                <span data-translate="notice.btn">MORE VIEW</span>
+                <div class="cir"><i></i></div>
+              </a>
+            </div>
+
+            <ul class="slider" data-aos="fade-in" data-aos-delay="100">
+              <li class="slide_box">
+                <a href="notice.html">
+                  <h2 data-translate="notice.label">Notice.</h2>
+                  <h1 data-translate="notice.content.title">
+                    SLENO 홈페이지를 방문해주셔서 감사합니다
+                  </h1>
+                  <p data-translate="notice.content.desc">
+                    SLENO 홈페이지를 방문해주셔서 감사합니다.
+                  </p>
+                  <span class="date" id="main_notice_date"
+                    ><i class="fa fa-clock"></i></span
+                  >
+                </a>
+              </li>
+            </ul>
+
+            <a class="c_btn mob" href="notice.html">
+              <span data-translate="notice.btn">MORE VIEW</span>
+              <div class="cir"><i></i></div>
+            </a>
+          </article>
+          <div class="line">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 6: Footer -->
+      <div class="section fp-auto-height" data-anchor="slide6">
+        <footer>
+          <div class="footer_con">
+            <!--
+            ===== 한글 버전 (Korean Version) =====
+            <div class="flex pc">
+              <div class="left">
+                <div class="logo">SLENO</div>
+                <p class="ft_info">
+                  주소 : 경기도 광명시 덕안로 104번길 17, 1307호 (광명역
+                  엠클러스터)<br />
+                  대표이사 : 신동휘 ㅣ 사업자 번호 : 534-88-01252<br />
+                  Tel : 02-6335-0416 ㅣ Fax : 02-6335-0422 ㅣ E-mail :
+                  sleno@sleno.co.kr
+                  <span class="ft_copy">
+                    COPYRIGHT© SLENO CO., LTD. All rights reserved ㅣ Designed
+                    by Felix
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div class="mobile">
+              <div class="logo">SLENO</div>
+              <p class="ft_info">
+                주소 : 경기도 광명시 덕안로 104번길 17, 1307호 (광명역
+                엠클러스터)<br />
+                대표이사 : 신동휘<br />
+                사업자 번호 : 534-88-01252<br />
+                Tel : 02-6335-0416<br />
+                Fax : 02-6335-0422<br />
+                E-mail : sleno@sleno.co.kr
+                <span class="ft_copy">
+                  COPYRIGHT© SLENO CO., LTD. All rights reserved<br />
+                  Designed by Felix
+                </span>
+              </p>
+            </div>
+            -->
+
+            <!-- 영어 버전 (English Version) -->
+            <div class="flex pc">
+              <div class="left">
+                <div class="logo">SLENO</div>
+                <p class="ft_info">
+                  Address:
+                  <span data-translate="footer.address.en"
+                    >1307, 17 Deokan-ro 104beon-gil, Gwangmyeong-si,
+                    Gyeonggi-do, Republic of Korea (M-Cluster Gwangmyeong
+                    Station)</span
+                  ><br />
+                  CEO: <span data-translate="footer.ceo">Scott Shin</span> ㅣ
+                  <span data-translate="footer.business_registration"
+                    >Business Registration No.</span
+                  >: 534-88-01252<br />
+                  Tel: +82-2-6335-0416 ㅣ Fax: +82-2-6335-0422 ㅣ E-mail:
+                  sleno@sleno.co.kr
+                  <span class="ft_copy">
+                    COPYRIGHT© SLENO CO., LTD. All rights reserved ㅣ Designed
+                    by Felix
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div class="mobile">
+              <div class="logo">SLENO</div>
+              <p class="ft_info">
+                Address:
+                <span data-translate="footer.address.en"
+                  >1307, 17 Deokan-ro 104beon-gil, Gwangmyeong-si, Gyeonggi-do,
+                  Republic of Korea (M-Cluster Gwangmyeong Station)</span
+                ><br />
+                CEO: <span data-translate="footer.ceo">Scott Shin</span><br />
+                <span data-translate="footer.business_registration"
+                  >Business Registration No.</span
+                >: 534-88-01252<br />
+                Tel: +82-2-6335-0416<br />
+                Fax: +82-2-6335-0422<br />
+                E-mail: sleno@sleno.co.kr
+                <span class="ft_copy">
+                  COPYRIGHT© SLENO CO., LTD. All rights reserved<br />
+                  Designed by Felix
+                </span>
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      // Set current date for main notice
+      var today = new Date();
+      var year = today.getFullYear();
+      var month = String(today.getMonth() + 1).padStart(2, '0');
+      var day = String(today.getDate()).padStart(2, '0');
+      var dateString = year + '-' + month + '-' + day;
+      document.getElementById('main_notice_date').textContent += ' ' + dateString;
+    </script>
+  </body>
+</html>

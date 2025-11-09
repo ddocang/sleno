@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overview - SLENO CO., LTD.</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="subpage">
+    <!-- Header -->
+    <div id="header_wrap" class="sub">
+      <div id="header">
+        <div class="header-inner">
+          <h1>
+            <div id="logo">
+              <a href="index.html"></a>
+            </div>
+          </h1>
+          <nav id="top_nav">
+            <ul class="gnb">
+              <li class="lm active">
+                <a href="#company" data-translate="nav.company">COMPANY</a>
+                <ul class="snb">
+                  <li class="sm active"><a href="overview.html" data-translate="nav.overview">Overview</a></li>
+                  <li class="sm"><a href="certification.html" data-translate="nav.certification">Certification</a></li>
+                  <li class="sm"><a href="location.html" data-translate="nav.location">Location</a></li>
+                </ul>
+              </li>
+              <li class="lm">
+                <a href="#business" data-translate="nav.business">BUSINESS AREA</a>
+                <ul class="snb">
+                  <li class="sm">
+                    <a href="automotive.html" data-translate="nav.compressor">Compressor</a>
+                  </li>
+                  <li class="sm">
+                    <a href="biometric.html" data-translate="nav.edge_server">Edge Server</a>
+                  </li>
+                  <li class="sm"><a href="iot.html" data-translate="nav.rtk">RTK</a></li>
+                  <li class="sm">
+                    <a href="machine.html" data-translate="nav.monitoring">Monitoring System</a>
+                  </li>
+                  <li class="sm">
+                    <a href="security.html" data-translate="nav.hydrogen">Hydrogen Storage Alloy</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="lm">
+                <a href="#rnd" data-translate="nav.rnd">R&D</a>
+                <ul class="snb">
+                  <li class="sm"><a href="rnd-center.html" data-translate="nav.rnd_center">R&D Center</a></li>
+                  <li class="sm"><a href="rnd-field.html" data-translate="nav.rnd_field">R&D Field</a></li>
+                </ul>
+              </li>
+              <li class="lm">
+                <a href="#support" data-translate="nav.support">SUPPORT</a>
+                <ul class="snb">
+                  <li class="sm"><a href="notice.html" data-translate="nav.notice">Notice</a></li>
+                  <li class="sm"><a href="inquiry.html" data-translate="nav.inquiry">Inquiry</a></li>
+                </ul>
+              </li>
+              <li class="lm language_toggle_wrap">
+                <div class="language_toggle">
+                  <button class="lang_current" type="button">
+                    <span class="lang_text">한국어</span>
+                    <i class="fa fa-chevron-down"></i>
+                  </button>
+                  <ul class="lang_dropdown">
+                    <li><a href="#" class="lang_option active" data-lang="ko">한국어</a></li>
+                    <li><a href="#" class="lang_option" data-lang="en">English</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <div id="hd_right">
+              <div class="menu_slider_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="snb_bg"></div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="hidden_nav">
+        <div class="menu_slider_btn2">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="h_gnb">
+          <li class="h_lm">
+            <a href="#company" data-translate="nav.company">COMPANY</a>
+            <ul class="h_snb">
+              <li><a href="overview.html" data-translate="nav.overview">Overview</a></li>
+              <li><a href="certification.html" data-translate="nav.certification">Certification</a></li>
+              <li><a href="location.html" data-translate="nav.location">Location</a></li>
+            </ul>
+          </li>
+          <li class="h_lm">
+            <a href="#business" data-translate="nav.business">BUSINESS AREA</a>
+            <ul class="h_snb">
+              <li><a href="automotive.html" data-translate="nav.compressor">Compressor</a></li>
+              <li><a href="biometric.html" data-translate="nav.edge_server">Edge Server</a></li>
+              <li><a href="iot.html" data-translate="nav.rtk">RTK</a></li>
+              <li><a href="machine.html" data-translate="nav.monitoring">Monitoring System</a></li>
+              <li><a href="security.html" data-translate="nav.hydrogen">Hydrogen Storage Alloy</a></li>
+            </ul>
+          </li>
+          <li class="h_lm">
+            <a href="#rnd" data-translate="nav.rnd">R&D</a>
+            <ul class="h_snb">
+              <li><a href="rnd-center.html" data-translate="nav.rnd_center">R&D Center</a></li>
+              <li><a href="rnd-field.html" data-translate="nav.rnd_field">R&D Field</a></li>
+            </ul>
+          </li>
+          <li class="h_lm">
+            <a href="#support" data-translate="nav.support">SUPPORT</a>
+            <ul class="h_snb">
+              <li><a href="notice.html" data-translate="nav.notice">Notice</a></li>
+              <li><a href="inquiry.html" data-translate="nav.inquiry">Inquiry</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="hidden_nav_box"></div>
+    </div>
+
+    <!-- Sub Page Content -->
+    <div id="sub_content">
+      <div class="sub_hero_img" data-aos="fade-in"></div>
+      <div class="sub_inner">
+        <div class="sub_title_wrap" data-aos="fade-up">
+          <h2 class="sub_title" data-translate="sub.overview.title">Overview</h2>
+          <p class="sub_desc" data-translate="sub.overview.desc">
+            ㈜슬레노는 산업용 압축기, RTK 정밀 위치 시스템, IoT 모니터링 솔루션,<br />
+            그리고 수소저장합금 기술을 기반으로 한 산업·에너지 융합 기술기업입니다.<br />
+            정밀한 기술과 혁신적인 데이터 솔루션으로 산업의 안전, 효율,<br />
+            그리고 지속가능한 미래를 만들어갑니다.
+          </p>
+        </div>
+
+        <!-- Company Info Section -->
+        <div class="company_info_section" data-aos="fade-up">
+          <div class="company_info_wrapper">
+            <div class="company_info_image">
+              <img src="images/sleno.png" alt="SLENO Logo" />
+            </div>
+            <div class="company_info_list">
+              <div class="info_row">
+                <span class="info_label" data-translate="company_info.ceo">대표</span>
+                <span class="info_value" data-translate="company_info.ceo.value">신동휘</span>
+              </div>
+              <div class="info_row">
+                <span class="info_label" data-translate="company_info.established">설립 연도</span>
+                <span class="info_value" data-translate="company_info.established.value">2019년 4월</span>
+              </div>
+              <div class="info_row">
+                <span class="info_label" data-translate="company_info.headquarters">본사</span>
+                <span class="info_value" data-translate="company_info.headquarters.value">경기도 광명시 덕안로 104번길 17, 엠클러스터 1307호</span>
+              </div>
+              <div class="info_row">
+                <span class="info_label" data-translate="company_info.samcheok">삼척 지사</span>
+                <span class="info_value" data-translate="company_info.samcheok.value">강원특별자치도 삼척시 언장1길 27 에너지방재지원센터 208호</span>
+              </div>
+              <div class="info_row">
+                <span class="info_label" data-translate="company_info.donghae">동해 공장</span>
+                <span class="info_value" data-translate="company_info.donghae.value">강원특별자치도 동해시 공단7로 41</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub_section" data-aos="fade-up">
+          <div class="content_box">
+            <h3 data-translate="revenue.title">매출 현황</h3>
+            <div class="revenue_chart_wrapper">
+              <svg class="revenue_chart" viewBox="0 0 500 350" preserveAspectRatio="xMidYMid meet">
+                <defs>
+                  <!-- Gradient for line -->
+                  <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#007bff;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#4facfe;stop-opacity:1" />
+                  </linearGradient>
+                  
+                  <!-- Gradient for area fill -->
+                  <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#007bff;stop-opacity:0.3" />
+                    <stop offset="100%" style="stop-color:#4facfe;stop-opacity:0.05" />
+                  </linearGradient>
+                  
+                  <!-- Shadow filter -->
+                  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+                    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+                    <feOffset dx="0" dy="2" result="offsetblur"/>
+                    <feComponentTransfer>
+                      <feFuncA type="linear" slope="0.3"/>
+                    </feComponentTransfer>
+                    <feMerge>
+                      <feMergeNode/>
+                      <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                  </filter>
+                  
+                  <!-- Glow filter -->
+                  <filter id="glow">
+                    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                    <feMerge>
+                      <feMergeNode in="coloredBlur"/>
+                      <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                  </filter>
+                </defs>
+                
+                <!-- Grid lines -->
+                <line x1="80" y1="40" x2="80" y2="260" stroke="#e8e8e8" stroke-width="1.5" stroke-dasharray="2,2"/>
+                <line x1="80" y1="260" x2="420" y2="260" stroke="#e8e8e8" stroke-width="1.5"/>
+                <line x1="80" y1="210" x2="420" y2="210" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="2,2"/>
+                <line x1="80" y1="155" x2="420" y2="155" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="2,2"/>
+                <line x1="80" y1="100" x2="420" y2="100" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="2,2"/>
+                <line x1="80" y1="45" x2="420" y2="45" stroke="#f0f0f0" stroke-width="1" stroke-dasharray="2,2"/>
+                
+                <!-- Y-axis labels -->
+                <text x="70" y="265" text-anchor="end" class="chart_axis_label">15</text>
+                <text x="70" y="210" text-anchor="end" class="chart_axis_label">30</text>
+                <text x="70" y="155" text-anchor="end" class="chart_axis_label">45</text>
+                <text x="70" y="100" text-anchor="end" class="chart_axis_label">60</text>
+                <text x="70" y="45" text-anchor="end" class="chart_axis_label">75</text>
+                
+                <!-- Area fill under line -->
+                <path 
+                  d="M 100,245 L 200,150 L 300,102 L 400,40 L 400,260 Z" 
+                  fill="url(#areaGradient)" 
+                  class="chart_area"/>
+                
+                <!-- Data line (straight lines) -->
+                <polyline 
+                  points="100,245 200,150 300,102 400,40" 
+                  fill="none" 
+                  stroke="url(#lineGradient)" 
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="chart_line"
+                  filter="url(#shadow)"/>
+                
+                <!-- Data points with tooltip -->
+                <g class="chart_point_group">
+                  <circle cx="100" cy="245" r="6" fill="#fff" stroke="url(#lineGradient)" stroke-width="3" class="chart_point" filter="url(#glow)" data-value-ko="19억" data-value-en="1.9B" data-year="2022"/>
+                  <circle cx="100" cy="245" r="3" fill="url(#lineGradient)" class="chart_point_inner"/>
+                  <g class="chart_tooltip_group">
+                    <rect x="75" y="215" width="50" height="24" rx="6" fill="#333" opacity="0.95" class="chart_tooltip_bg"/>
+                    <text x="100" y="232" text-anchor="middle" class="chart_tooltip" data-translate="revenue.2022">19억</text>
+                  </g>
+                </g>
+                
+                <g class="chart_point_group">
+                  <circle cx="200" cy="150" r="6" fill="#fff" stroke="url(#lineGradient)" stroke-width="3" class="chart_point" filter="url(#glow)" data-value-ko="45억" data-value-en="4.5B" data-year="2023"/>
+                  <circle cx="200" cy="150" r="3" fill="url(#lineGradient)" class="chart_point_inner"/>
+                  <g class="chart_tooltip_group">
+                    <rect x="175" y="120" width="50" height="24" rx="6" fill="#333" opacity="0.95" class="chart_tooltip_bg"/>
+                    <text x="200" y="137" text-anchor="middle" class="chart_tooltip" data-translate="revenue.2023">45억</text>
+                  </g>
+                </g>
+                
+                <g class="chart_point_group">
+                  <circle cx="300" cy="102" r="6" fill="#fff" stroke="url(#lineGradient)" stroke-width="3" class="chart_point" filter="url(#glow)" data-value-ko="58억" data-value-en="5.8B" data-year="2024"/>
+                  <circle cx="300" cy="102" r="3" fill="url(#lineGradient)" class="chart_point_inner"/>
+                  <g class="chart_tooltip_group">
+                    <rect x="275" y="72" width="50" height="24" rx="6" fill="#333" opacity="0.95" class="chart_tooltip_bg"/>
+                    <text x="300" y="89" text-anchor="middle" class="chart_tooltip" data-translate="revenue.2024">58억</text>
+                  </g>
+                </g>
+                
+                <g class="chart_point_group">
+                  <circle cx="400" cy="40" r="6" fill="#fff" stroke="url(#lineGradient)" stroke-width="3" class="chart_point" filter="url(#glow)" data-value-ko="75억" data-value-en="7.5B" data-year="2025"/>
+                  <circle cx="400" cy="40" r="3" fill="url(#lineGradient)" class="chart_point_inner"/>
+                  <g class="chart_tooltip_group">
+                    <rect x="375" y="10" width="50" height="24" rx="6" fill="#333" opacity="0.95" class="chart_tooltip_bg"/>
+                    <text x="400" y="27" text-anchor="middle" class="chart_tooltip" data-translate="revenue.2025">75억</text>
+                  </g>
+                </g>
+                
+                <!-- Year labels -->
+                <text x="100" y="300" text-anchor="middle" class="chart_year_label">2022</text>
+                <text x="200" y="300" text-anchor="middle" class="chart_year_label">2023</text>
+                <text x="300" y="300" text-anchor="middle" class="chart_year_label">2024</text>
+                <text x="400" y="300" text-anchor="middle" class="chart_year_label">2025</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub_section" data-aos="fade-up">
+          <div class="sub_title_wrap" style="margin-bottom: 60px; padding-bottom: 30px;">
+            <h2 class="sub_title" data-translate="sub.history.title">History</h2>
+            <p class="sub_desc" data-translate="sub.history.desc">
+              Our journey of innovation and growth
+            </p>
+          </div>
+          <div class="timeline">
+            <div class="timeline_item" data-aos="fade-right" data-aos-delay="100">
+              <div class="timeline_year">2024~2027</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2024_2027.title">AI기반수소산업Platform</h3>
+                <p data-translate="sub.history.2024_2027.desc">AI기반수소산업Platform 구축 및 운영</p>
+              </div>
+            </div>
+            <div class="timeline_item timeline_item_right" data-aos="fade-left" data-aos-delay="200">
+              <div class="timeline_year">2024~2025</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2024_2025.title">수소기업R&D Hub 구축사업</h3>
+                <p data-translate="sub.history.2024_2025.desc">수소기업R&D Hub 구축사업(액화수소안전모니터링시스템개발)<br />액화수소관련특허출원 (2건)<br />수소설비관련특허출원 (2건)</p>
+              </div>
+            </div>
+            <div class="timeline_item" data-aos="fade-right" data-aos-delay="300">
+              <div class="timeline_year">2024</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2024.title">주요 성과</h3>
+                <p data-translate="sub.history.2024.desc">ISO45001 인증획득<br />기업부설 연구소 설립<br />벤처기업 인증 (제 20240702030068호)<br />수소 전문기업 인증 (제 2024-0011호)<br />H2AI 인수합병</p>
+              </div>
+            </div>
+            <div class="timeline_item timeline_item_right" data-aos="fade-left" data-aos-delay="400">
+              <div class="timeline_year">2023</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2023.title">인증 및 사업 확장</h3>
+                <p data-translate="sub.history.2023.desc">ISO14001 인증획득<br />㈜지이 사명변경<br />에너지신산업(수소) 안전모니터링시스템개발및실증</p>
+              </div>
+            </div>
+            <div class="timeline_item" data-aos="fade-right" data-aos-delay="500">
+              <div class="timeline_year">2022</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2022.title">ISO9001 인증획득</h3>
+                <p data-translate="sub.history.2022.desc">ISO9001 인증획득</p>
+              </div>
+            </div>
+            <div class="timeline_item timeline_item_right" data-aos="fade-left" data-aos-delay="600">
+              <div class="timeline_year">2021</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2021.title">연구개발 및 협약</h3>
+                <p data-translate="sub.history.2021.desc">연구개발전담부서 설립<br />H2 Comp Packaging 협약채결</p>
+              </div>
+            </div>
+            <div class="timeline_item" data-aos="fade-right" data-aos-delay="700">
+              <div class="timeline_year">2020</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2020.title">특허 및 기술개발</h3>
+                <p data-translate="sub.history.2020.desc">수소압축기Packaging용특수공구특허등록<br />LNG BOG 압축기부품국산화개발</p>
+              </div>
+            </div>
+            <div class="timeline_item timeline_item_right" data-aos="fade-left" data-aos-delay="800">
+              <div class="timeline_year">2019</div>
+              <div class="timeline_content">
+                <h3 data-translate="sub.history.2019.title">법인 설립</h3>
+                <p data-translate="sub.history.2019.desc">지티씨 엔지니어링 ㈜ 법인 설립</p>
+              </div>
+            </div>
+            <div style="clear: both;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer_con">
+        <div class="flex pc">
+          <div class="left">
+            <div class="logo">SLENO</div>
+            <p class="ft_info">
+              Address: <span data-translate="footer.address.en">1307, 17 Deokan-ro 104beon-gil, Gwangmyeong-si, Gyeonggi-do, Republic of Korea (M-Cluster Gwangmyeong Station)</span><br />
+              CEO: <span data-translate="footer.ceo">Scott Shin</span> ㅣ <span data-translate="footer.business_registration">Business Registration No.</span>: 534-88-01252<br />
+              Tel: +82-2-6335-0416 ㅣ Fax: +82-2-6335-0422 ㅣ E-mail:
+              sleno@sleno.co.kr
+              <span class="ft_copy">
+                COPYRIGHT© SLENO CO., LTD. All rights reserved ㅣ Designed by Felix
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="mobile">
+          <div class="logo">SLENO</div>
+          <p class="ft_info">
+            Address: <span data-translate="footer.address.en">1307, 17 Deokan-ro 104beon-gil, Gwangmyeong-si, Gyeonggi-do, Republic of Korea (M-Cluster Gwangmyeong Station)</span><br />
+            CEO: <span data-translate="footer.ceo">Scott Shin</span><br />
+            <span data-translate="footer.business_registration">Business Registration No.</span>: 534-88-01252<br />
+            Tel: +82-2-6335-0416<br />
+            Fax: +82-2-6335-0422<br />
+            E-mail: sleno@sleno.co.kr
+            <span class="ft_copy">
+              COPYRIGHT© SLENO CO., LTD. All rights reserved<br />
+              Designed by Felix
+            </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+

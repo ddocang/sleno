@@ -5,12 +5,6 @@
       "src": "homepage/**",
       "use": "@vercel/static"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/homepage/$1"
-    }
   ]
 }
 
